@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header {
+    background-color: rgba(75, 75, 93, 0.85);
+    width: 100%;
+    height: 750px;
+    position: relative;
+   color: #ffffff;
+}
+
+nav {
+    padding: 50px;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.spa{
+    
+    height: 0.5px;
+    display:block;
+    background-color: rgba(249, 249, 254, 0.366);
+    margin-left: 30px;
+    margin-right: 30px;
+    
+ }
+
+header h1 {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 50px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.sec {
+    width: 30%;
+    text-align: center;
+
+}
+
+.sec i {
+    color: rgba(65, 177, 115, 0.978);
+    font-size: 40px;
+    padding: 30px;
+}
+.sec h3{
+    padding: 10px;
+}
+
+.butt {
+    background-color: #41b173; /* Change to your desired color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 100px;
+  
+}
+
+.butt:hover {
+    background-color: #369c62; /* Darker shade for hover effect */
+
+
+}
+.im1{
+    border-radius: 50%;
+}
+.img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+    
+}
+.img h2{
+    padding-top: 20px;
+    color: rgba(12, 11, 11, 0.582);
+   
+}
+.img p{
+    padding-top: 20px; 
+    color: rgba(0, 0, 0, 0.182);
+     padding-bottom: 45px;
+}
+.img1, .img2 {
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+   
+   
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clearx {
+    clear: both;
+}
+
+.butt2{
+    background-color: #41b173; /* Change to your desired color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+  margin: 50px;
+   
+}
+
+
+form {
+    background-color: #41b173;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 5000px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.form h4 {
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+
+form label {
+    width: 50%;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+   
+}
+
+form input,
+form textarea {
+    background-color:  #41b173;;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form textarea {
+    resize: vertical;
+}
+
+.submit{
+    background-color: #41b173; /* Green background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+}
+
+.submit {
+    background-color: #369c62; /* Darker green for hover effect */
+}
+
